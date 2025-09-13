@@ -66,17 +66,27 @@
 </head>
 <body>
 <header>
-    <h1>Perfil de Usuario</h1>
+    <h1 id="inicio">Perfil de Usuario</h1>
 </header>
 
 <main>
-    <!-- Imagen de perfil -->
-    <img src="https://via.placeholder.com/150" alt="Foto de perfil del usuario">
-
+    <h1>Hola, soy Bruno!</h1>
+    <!-- Imagen con mapa -->
+    <img src="image.jpg" alt="Foto de perfil del usuario" width="200" usemap="#imgmap">
+    <!-- Definición del mapa -->
+    <map name="imgmap">
+        <!-- Un círculo de radio 100px con centro en (100,100) -->
+        <area shape="circle" coords="100,100,100"
+              href="https://www.google.com/search?tbm=isch&q=perros"
+              target="_blank" alt="Ir a Google Image">
+    </map>
     <!-- Biografía -->
     <article>
-        <h2>Biografía</h2>
-        <p>Hola, soy Juan Pérez, estudiante de Ingeniería en Sistemas apasionado por la tecnología, la programación y las redes. Me gusta aprender cosas nuevas y aplicar mis conocimientos en proyectos prácticos.</p>
+        <h2 >Biografía</h2>
+        <p>Actualmente estoy estudiando Ingeniería en Sistemas y trabajo en Foca Software. Me gusta:</p>
+        <ul>Aprender cosas nuevas</ul>
+        <ul>Jugar con Almendra</ul>
+        <ul>Ver peliculas</ul>
     </article>
 
     <!-- Tabla de contacto -->
@@ -92,11 +102,11 @@
             <tbody>
             <tr>
                 <td>Email</td>
-                <td>juanperez@example.com</td>
+                <td>zabruno00@gmail.com</td>
             </tr>
             <tr>
                 <td>Teléfono</td>
-                <td>+54 11 1234-5678</td>
+                <td>+54 9 261 2193 ***</td>
             </tr>
             </tbody>
         </table>
@@ -121,7 +131,8 @@
 </main>
 
 <footer>
-    <p>&copy; 2025 Perfil de Usuario - Todos los derechos reservados</p>
+    <a href="#inicio">Ir a inicio</a>
+    <p>&copy; 2025 Perfil de Usuario</p>
 </footer>
 </body>
 </html>
