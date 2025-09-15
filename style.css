@@ -1,47 +1,8 @@
-/*
-
-
-
-table {
-    width: 60%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
-table, th, td {
-    border: 1px solid #999;
-}
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-form {
-    width: 60%;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-label {
-    font-weight: bold;
-}
-input, textarea, button {
-    padding: 8px;
-    font-size: 1em;
-}
-button {
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #555;
-}
-*/
 main {
     padding: 5px;
 }
 body {
+    background-color: #999999;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -51,15 +12,75 @@ header, footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 img {
-    max-width: 150px;
     border-radius: 50%;
+    width: 150px;
+    margin: 10px;
+}
+label {
+    font-weight: bold;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+form {
+    width: 60%;
+    margin: 20px auto;
     display: flex;
-    margin: 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #999999;
+}
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input, textarea, button {
+    padding: 8px;
+    font-size: 1em;
+    border-color: black;
+}
+
+input,textarea{
+    background-color: #999999;
+}
+button:hover {
+    background-color: #555;
+}
+h1,h2{
+    text-align: center;
+    color: black;
 }
 .dos-imagenes {
+    gap: 5px;
     display: flex;
-    gap: 5px; /* separación entre las imágenes */
+    justify-content: space-around;
+    border: 2px solid #1C1D1F;
+    padding: 20px;
+}
+p,ul {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #1C1D1F;
+}
+#inicio,#final1,#final2{
+    color:white;
+}
+.una-imagen {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }

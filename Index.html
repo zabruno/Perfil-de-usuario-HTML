@@ -15,7 +15,9 @@
 <main>
     <h1>Hola, soy Bruno! Esto va a ser una página estilizada</h1>
     <!-- Imagen con mapa -->
-    <img src="image.jpg" alt="Foto de perfil del usuario" width="200" usemap="#imgmap">
+    <div class="una-imagen">
+
+    <img src="image.jpg" alt="Foto de perfil del usuario" usemap="#imgmap">
     <!-- Definición del mapa -->
     <map name="imgmap">
         <!-- Un círculo de radio 100px con centro en (100,100) -->
@@ -23,6 +25,7 @@
               href="https://www.google.com/search?tbm=isch&q=perros"
               target="_blank" alt="Ir a Google Image">
     </map>
+    </div>
     <!-- Biografía -->
     <article>
         <h2 >Biografía</h2>
@@ -84,8 +87,8 @@
 </main>
 
 <footer>
-    <a href="#inicio">Ir a inicio</a>
-    <p>&copy; 2025 Perfil de Usuario</p>
+    <a href="#inicio" id="final1">Ir a inicio</a>
+    <p id="final2">&copy; 2025 Perfil de Usuario</p>
 </footer>
 </body>
 </html>
